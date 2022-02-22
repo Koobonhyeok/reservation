@@ -1,0 +1,135 @@
+.reservation {
+  width: 100%;
+  height: 700px;
+}
+
+.reservation-header {
+  width: 100%;
+  height: 50px;
+  border-bottom: 5px solid black;
+}
+
+.reservation-body {
+  width: 100%;
+  height: 570px;
+}
+
+.reservation-footer {
+  width: 100%;
+  height: 80px;
+  border-top: 5px solid black;
+}
+
+.logo-image {
+  padding: 10px;
+  height: 20px;
+}
+
+.header-right {
+  float: right;
+}
+
+.logout-btn {
+  margin: 10px;
+}
+
+.body-nav-left {
+  float: left;
+  text-align: center;
+  width: 43.5%;
+  height: 100%;
+  border-right: 0.2px solid black;
+  /* background-color: green; */
+}
+
+.body-nav-right {
+  float: right;
+  width: 56%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.tab-main {
+  height: 7%;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.membership-info {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 3px solid black;
+}
+
+.body-tab-left {
+  float: left;
+  width: 49%;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+.body-tab-right {
+  float: left;
+  width: 49%;
+  height: 100%;
+}
+
+.map-div {
+  width: 49%;
+  margin-top: 7px;
+  float: left;
+}
+
+.radio-main {
+  height: 7%;
+  border-bottom: 3px solid black;
+  /* background-color: blueviolet; */
+}
+
+.radio-main-detail {
+  width: 85%;
+  height: 85%;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid black;
+  /* background-color: black; */
+}
+
+.targetTab {
+  background-color: beige;
+  border-bottom: 3px solid black;
+}
+
+.useHistory-sort {
+  border-bottom: 1px solid black;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.sort-down {
+  margin-left: 30px;
+}
+
+.useHistory-classTime {
+  overflow: scroll;
+  height: 480px;
+}
+
+.classTime {
+  border: 1px solid black;
+  margin-bottom: 12px;
+}
+
+.footer-nav {
+  width: 19%;
+  height: 75px;
+  float: left;
+  text-align: center;
+  border-right: 2px solid black;
+}
+
+.footer-nav-left {
+  border-left: 2px solid black;
+}

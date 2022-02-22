@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+/* eslint-disable */
+import React, {useState, useEffect} from 'react';
 import './App.css';
+import Login from './components/Login';
+import Reservation from './components/Reservation';
 
 function App() {
+  let [login, setLogin] = useState(true);
+
+  useEffect(()=>{
+    
+    if( sessionStorage.getItem('userId') !== null ){
+      setLogin(false);
+    }else{
+      setLogin(true);
+    }
+    
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      {
+        login ?
+          <header className="App-header">
+            <Login />
+          </header> 
+          :
+          <Reservation />
+      }
     </div>
   );
 }
